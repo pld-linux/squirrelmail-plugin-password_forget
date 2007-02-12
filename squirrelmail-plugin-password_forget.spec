@@ -1,7 +1,7 @@
 %define		_plugin	password_forget
 %define		mversion	1.0.1
 Summary:	Plugin for login/password form names randomization
-Summary(pl):	Wtyczka generuj±ca losowe nazwy pól login/has³o w formularzu
+Summary(pl.UTF-8):   Wtyczka generujÄ…ca losowe nazwy pÃ³l login/hasÅ‚o w formularzu
 Name:		squirrelmail-plugin-%{_plugin}
 Version:	2.1
 Release:	1
@@ -22,10 +22,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This plugin will generate random names for login/password form fields
 to prevent browsers for remembering users passwords.
 
-%description -l pl
-Ta wtyczka bêdzie generowaæ losowe nazwy pól formularza dla loginu i
-has³a aby uniemo¿liwiæ przegl±darkom zapamiêtywanie hase³
-u¿ytkowników.
+%description -l pl.UTF-8
+Ta wtyczka bÄ™dzie generowaÄ‡ losowe nazwy pÃ³l formularza dla loginu i
+hasÅ‚a aby uniemoÅ¼liwiÄ‡ przeglÄ…darkom zapamiÄ™tywanie haseÅ‚
+uÅ¼ytkownikÃ³w.
 
 %prep
 %setup -q -n %{_plugin}
