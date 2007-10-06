@@ -4,14 +4,14 @@ Summary:	Plugin for login/password form names randomization
 Summary(pl.UTF-8):	Wtyczka generująca losowe nazwy pól login/hasło w formularzu
 Name:		squirrelmail-plugin-%{_plugin}
 Version:	2.1
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Mail
 Source0:	http://www.squirrelmail.org/plugins/%{_plugin}.%{version}-%{mversion}.tar.gz
 # Source0-md5:	33ffd387d5190b690d53358cb3b4e691
 URL:		http://www.squirrelmail.org/plugin_view.php?id=12
 Requires:	squirrelmail >= 1.4.6-2
-Requires:	squirrelmail-compatibility-2.0.4
+Requires:	squirrelmail-compatibility >= 2.0.4
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
